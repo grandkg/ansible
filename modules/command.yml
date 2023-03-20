@@ -6,3 +6,5 @@
       command: date
     - name: Display resolf.conf contents
       command: cat /etc/resolf.conf
+
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/command_module.html
