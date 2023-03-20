@@ -1,0 +1,8 @@
+-
+  name: Play1
+  hosts: localhost
+  tasks:
+    - name: Execute command "Date"
+      command: date
+    - name: Display resolf.conf contents
+      command: cat /etc/resolf.conf
