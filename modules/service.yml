@@ -1,0 +1,16 @@
+-
+  name: Play1
+  hosts: localhost
+  tasks:
+    - name: Run a script on remote server
+      service: name=postgresql state=started
+      
+    - name: Run a script on remote server
+      service:
+        name: postgresql
+        state: started
+
+    - name: Run a script on remote server
+      service:
+        name: httpd
+        state: started
