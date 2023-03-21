@@ -1,0 +1,8 @@
+---
+-
+    name: 'Execute two commands on localhost'
+    hosts: all
+    tasks:
+        - lineinfile:
+            path: '/home/grand615488/1'
+            line: 'nameserver 10.1.250.10'
